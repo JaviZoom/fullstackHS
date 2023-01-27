@@ -1,0 +1,14 @@
+version: '3'
+services:
+  fullstack-sqlserver:
+    image: fullstack-sqlserver-image
+    build: 
+      context: ./SQLSERVER
+      dockerfile: Dockerfile
+    restart: always
+    container_name: fullstack-sqlserver-container
+    environment:
+      SA_PASSWORD: Anro823500
+      ACCEPT_EULA: Y
+    ports:
+    - "1433:1433"
