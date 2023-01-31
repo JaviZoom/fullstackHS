@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>b90a56d7-6555-4228-8965-e6c68e5a8d9e</UserSecretsId>
+    <UserSecretsId>25f71788-b2ff-4124-957a-85dcce73e6b0</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebSystem.Dependencies\WebSystem.Dependencies.csproj" />
-    <ProjectReference Include="..\WebSystem.Entity\WebSystem.Entity.csproj" />
-    <ProjectReference Include="..\WebSystem.Logic\WebSystem.Logic.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
