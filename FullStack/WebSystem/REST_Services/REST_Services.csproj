@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>25f71788-b2ff-4124-957a-85dcce73e6b0</UserSecretsId>
+    <UserSecretsId>7a6d2e98-ea41-4f5d-b7be-72899840f18e</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\WebSystem.BusinessLogicLayer\WebSystem.BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\WebSystem.DTO\WebSystem.DTO.csproj" />
+    <ProjectReference Include="..\WebSystem.InversionOfControl\WebSystem.InversionOfControl.csproj" />
   </ItemGroup>
 
 </Project>

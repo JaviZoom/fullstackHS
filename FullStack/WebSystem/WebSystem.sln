@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_Services", "REST_Services\REST_Services.csproj", "{D53F2F8B-0E7A-4482-9C26-512672537E4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.DataAccessLayer", "WebSystem.DataAccessLayer\WebSystem.DataAccessLayer.csproj", "{5B041FB9-F8AD-46FC-8270-5B5C439517D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.DataAccessLayer", "WebSystem.DataAccessLayer\WebSystem.DataAccessLayer.csproj", "{5B041FB9-F8AD-46FC-8270-5B5C439517D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.BusinessLogicLayer", "WebSystem.BusinessLogicLayer\WebSystem.BusinessLogicLayer.csproj", "{C6CD69AE-01C0-4461-A496-F7B5FDB34640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.BusinessLogicLayer", "WebSystem.BusinessLogicLayer\WebSystem.BusinessLogicLayer.csproj", "{C6CD69AE-01C0-4461-A496-F7B5FDB34640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.Model", "WebSystem.Model\WebSystem.Model.csproj", "{4CF414B6-44A2-4A3E-9AF8-EE194A3318E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.Model", "WebSystem.Model\WebSystem.Model.csproj", "{4CF414B6-44A2-4A3E-9AF8-EE194A3318E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.InversionOfControl", "WebSystem.InversionOfControl\WebSystem.InversionOfControl.csproj", "{015823C9-B955-4473-9212-AFBD80338B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.InversionOfControl", "WebSystem.InversionOfControl\WebSystem.InversionOfControl.csproj", "{015823C9-B955-4473-9212-AFBD80338B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.DTO", "WebSystem.DTO\WebSystem.DTO.csproj", "{D60AECAE-7A21-4FF6-A9C4-C3A7AA264F4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.DTO", "WebSystem.DTO\WebSystem.DTO.csproj", "{D60AECAE-7A21-4FF6-A9C4-C3A7AA264F4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSystem.Utility", "WebSystem.Utility\WebSystem.Utility.csproj", "{645BE114-E3F3-4F9B-A589-412CDC273589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSystem.Utility", "WebSystem.Utility\WebSystem.Utility.csproj", "{645BE114-E3F3-4F9B-A589-412CDC273589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_Services", "REST_Services\REST_Services.csproj", "{D1085123-324F-41BB-AF20-D1EC28FC2AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D53F2F8B-0E7A-4482-9C26-512672537E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D53F2F8B-0E7A-4482-9C26-512672537E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D53F2F8B-0E7A-4482-9C26-512672537E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D53F2F8B-0E7A-4482-9C26-512672537E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B041FB9-F8AD-46FC-8270-5B5C439517D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B041FB9-F8AD-46FC-8270-5B5C439517D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B041FB9-F8AD-46FC-8270-5B5C439517D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{645BE114-E3F3-4F9B-A589-412CDC273589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{645BE114-E3F3-4F9B-A589-412CDC273589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645BE114-E3F3-4F9B-A589-412CDC273589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1085123-324F-41BB-AF20-D1EC28FC2AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1085123-324F-41BB-AF20-D1EC28FC2AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1085123-324F-41BB-AF20-D1EC28FC2AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1085123-324F-41BB-AF20-D1EC28FC2AA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

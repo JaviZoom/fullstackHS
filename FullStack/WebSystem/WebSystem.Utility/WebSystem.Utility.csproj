@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebSystem.DTO\WebSystem.DTO.csproj" />
+    <ProjectReference Include="..\WebSystem.Model\WebSystem.Model.csproj" />
+  </ItemGroup>
+
 </Project>
