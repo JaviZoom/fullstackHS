@@ -1,0 +1,17 @@
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.Logic.deps.json
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.Logic.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.Logic.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.csproj.AssemblyReference.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.AssemblyInfoInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.AssemblyInfo.cs
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\refint\WebSystem.Logic.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\ref\WebSystem.Logic.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.DataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.Entity.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.DataAccess.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\bin\Debug\net6.0\WebSystem.Entity.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.Logic\obj\Debug\net6.0\WebSystem.Logic.csproj.CopyComplete
