@@ -1,0 +1,15 @@
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\bin\Debug\net6.0\WebSystem.DataAccess.deps.json
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\bin\Debug\net6.0\WebSystem.DataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\bin\Debug\net6.0\WebSystem.DataAccess.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.AssemblyInfo.cs
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\refint\WebSystem.DataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\ref\WebSystem.DataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\bin\Debug\net6.0\WebSystem.Entity.dll
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\bin\Debug\net6.0\WebSystem.Entity.pdb
+C:\Users\Jasz_\Desktop\FullStack\WebSystem\WebSystem.DataAccess\obj\Debug\net6.0\WebSystem.DataAccess.csproj.CopyComplete
