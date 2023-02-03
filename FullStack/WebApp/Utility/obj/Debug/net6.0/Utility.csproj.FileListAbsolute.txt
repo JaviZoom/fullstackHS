@@ -1,0 +1,17 @@
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\Utility.deps.json
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\Utility.dll
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\Utility.pdb
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\ADataAccess.dll
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\DTO.dll
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\ADataAccess.pdb
+C:\Users\Jasz_\Documents\WebApp\Utility\bin\Debug\net6.0\DTO.pdb
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.csproj.AssemblyReference.cache
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.AssemblyInfoInputs.cache
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.AssemblyInfo.cs
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.csproj.CoreCompileInputs.cache
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.csproj.CopyComplete
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.dll
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\refint\Utility.dll
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\Utility.pdb
+C:\Users\Jasz_\Documents\WebApp\Utility\obj\Debug\net6.0\ref\Utility.dll
