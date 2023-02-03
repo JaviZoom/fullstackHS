@@ -1,6 +1,7 @@
-using WebSystem.InversionOfControl;
+using IOC;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.DependencyInjection(builder.Configuration);
+builder.Services.dependencyInjection(builder.Configuration);
 
 var app = builder.Build();
 

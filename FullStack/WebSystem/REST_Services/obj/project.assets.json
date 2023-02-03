@@ -1141,85 +1141,60 @@
           }
         }
       },
-      "WebSystem.BusinessLogicLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "WebSystem.DTO": "1.0.0",
-          "WebSystem.DataAccessLayer": "1.0.0",
-          "WebSystem.Model": "1.0.0",
-          "WebSystem.Utility": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WebSystem.BusinessLogicLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WebSystem.BusinessLogicLayer.dll": {}
-        }
-      },
-      "WebSystem.DataAccessLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "WebSystem.Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WebSystem.DataAccessLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WebSystem.DataAccessLayer.dll": {}
-        }
-      },
-      "WebSystem.DTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/WebSystem.DTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WebSystem.DTO.dll": {}
-        }
-      },
-      "WebSystem.InversionOfControl/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "WebSystem.BusinessLogicLayer": "1.0.0",
-          "WebSystem.DataAccessLayer": "1.0.0",
-          "WebSystem.Utility": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WebSystem.InversionOfControl.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WebSystem.InversionOfControl.dll": {}
-        }
-      },
-      "WebSystem.Model/1.0.0": {
+      "ADataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
         },
         "compile": {
-          "bin/placeholder/WebSystem.Model.dll": {}
+          "bin/placeholder/ADataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WebSystem.Model.dll": {}
+          "bin/placeholder/ADataAccess.dll": {}
         }
       },
-      "WebSystem.Utility/1.0.0": {
+      "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "WebSystem.DTO": "1.0.0",
-          "WebSystem.Model": "1.0.0"
+          "ADataAccess": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2"
         },
         "compile": {
-          "bin/placeholder/WebSystem.Utility.dll": {}
+          "bin/placeholder/Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WebSystem.Utility.dll": {}
+          "bin/placeholder/Data.dll": {}
+        }
+      },
+      "IOC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ADataAccess": "1.0.0",
+          "Data": "1.0.0",
+          "Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IOC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IOC.dll": {}
+        }
+      },
+      "Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ADataAccess": "1.0.0",
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
         }
       }
     }
@@ -3596,44 +3571,35 @@
         "version.txt"
       ]
     },
-    "WebSystem.BusinessLogicLayer/1.0.0": {
+    "ADataAccess/1.0.0": {
       "type": "project",
-      "path": "../WebSystem.BusinessLogicLayer/WebSystem.BusinessLogicLayer.csproj",
-      "msbuildProject": "../WebSystem.BusinessLogicLayer/WebSystem.BusinessLogicLayer.csproj"
+      "path": "../ADataAccess/ADataAccess.csproj",
+      "msbuildProject": "../ADataAccess/ADataAccess.csproj"
     },
-    "WebSystem.DataAccessLayer/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
-      "path": "../WebSystem.DataAccessLayer/WebSystem.DataAccessLayer.csproj",
-      "msbuildProject": "../WebSystem.DataAccessLayer/WebSystem.DataAccessLayer.csproj"
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     },
-    "WebSystem.DTO/1.0.0": {
+    "IOC/1.0.0": {
       "type": "project",
-      "path": "../WebSystem.DTO/WebSystem.DTO.csproj",
-      "msbuildProject": "../WebSystem.DTO/WebSystem.DTO.csproj"
+      "path": "../IOC/IOC.csproj",
+      "msbuildProject": "../IOC/IOC.csproj"
     },
-    "WebSystem.InversionOfControl/1.0.0": {
+    "Logic/1.0.0": {
       "type": "project",
-      "path": "../WebSystem.InversionOfControl/WebSystem.InversionOfControl.csproj",
-      "msbuildProject": "../WebSystem.InversionOfControl/WebSystem.InversionOfControl.csproj"
-    },
-    "WebSystem.Model/1.0.0": {
-      "type": "project",
-      "path": "../WebSystem.Model/WebSystem.Model.csproj",
-      "msbuildProject": "../WebSystem.Model/WebSystem.Model.csproj"
-    },
-    "WebSystem.Utility/1.0.0": {
-      "type": "project",
-      "path": "../WebSystem.Utility/WebSystem.Utility.csproj",
-      "msbuildProject": "../WebSystem.Utility/WebSystem.Utility.csproj"
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ADataAccess >= 1.0.0",
+      "IOC >= 1.0.0",
+      "Logic >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
-      "Swashbuckle.AspNetCore >= 6.2.3",
-      "WebSystem.BusinessLogicLayer >= 1.0.0",
-      "WebSystem.DTO >= 1.0.0",
-      "WebSystem.InversionOfControl >= 1.0.0"
+      "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
@@ -3668,14 +3634,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj"
             },
-            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj"
             },
-            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj"
             }
           }
         }
@@ -3690,6 +3656,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.2, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.17.0, )"

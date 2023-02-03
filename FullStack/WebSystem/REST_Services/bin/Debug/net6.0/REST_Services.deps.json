@@ -8,11 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "REST_Services/1.0.0": {
         "dependencies": {
+          "ADataAccess": "1.0.0",
+          "IOC": "1.0.0",
+          "Logic": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "WebSystem.BusinessLogicLayer": "1.0.0",
-          "WebSystem.DTO": "1.0.0",
-          "WebSystem.InversionOfControl": "1.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "REST_Services.dll": {}
@@ -662,55 +663,38 @@
           }
         }
       },
-      "WebSystem.BusinessLogicLayer/1.0.0": {
-        "dependencies": {
-          "WebSystem.DTO": "1.0.0",
-          "WebSystem.DataAccessLayer": "1.0.0",
-          "WebSystem.Model": "1.0.0",
-          "WebSystem.Utility": "1.0.0"
-        },
-        "runtime": {
-          "WebSystem.BusinessLogicLayer.dll": {}
-        }
-      },
-      "WebSystem.DataAccessLayer/1.0.0": {
-        "dependencies": {
-          "WebSystem.Model": "1.0.0"
-        },
-        "runtime": {
-          "WebSystem.DataAccessLayer.dll": {}
-        }
-      },
-      "WebSystem.DTO/1.0.0": {
-        "runtime": {
-          "WebSystem.DTO.dll": {}
-        }
-      },
-      "WebSystem.InversionOfControl/1.0.0": {
-        "dependencies": {
-          "WebSystem.BusinessLogicLayer": "1.0.0",
-          "WebSystem.DataAccessLayer": "1.0.0",
-          "WebSystem.Utility": "1.0.0"
-        },
-        "runtime": {
-          "WebSystem.InversionOfControl.dll": {}
-        }
-      },
-      "WebSystem.Model/1.0.0": {
+      "ADataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
         },
         "runtime": {
-          "WebSystem.Model.dll": {}
+          "ADataAccess.dll": {}
         }
       },
-      "WebSystem.Utility/1.0.0": {
+      "Data/1.0.0": {
         "dependencies": {
-          "WebSystem.DTO": "1.0.0",
-          "WebSystem.Model": "1.0.0"
+          "ADataAccess": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2"
         },
         "runtime": {
-          "WebSystem.Utility.dll": {}
+          "Data.dll": {}
+        }
+      },
+      "IOC/1.0.0": {
+        "dependencies": {
+          "ADataAccess": "1.0.0"
+        },
+        "runtime": {
+          "IOC.dll": {}
+        }
+      },
+      "Logic/1.0.0": {
+        "dependencies": {
+          "ADataAccess": "1.0.0",
+          "Data": "1.0.0"
+        },
+        "runtime": {
+          "Logic.dll": {}
         }
       }
     }
@@ -1204,32 +1188,22 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "WebSystem.BusinessLogicLayer/1.0.0": {
+    "ADataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "WebSystem.DataAccessLayer/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "WebSystem.DTO/1.0.0": {
+    "IOC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "WebSystem.InversionOfControl/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "WebSystem.Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "WebSystem.Utility/1.0.0": {
+    "Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

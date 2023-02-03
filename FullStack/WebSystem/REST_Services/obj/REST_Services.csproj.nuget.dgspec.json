@@ -4,359 +4,14 @@
     "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj",
-        "projectName": "REST_Services",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj",
+        "projectName": "ADataAccess",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj",
-        "projectName": "WebSystem.BusinessLogicLayer",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj",
-        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj",
-        "projectName": "WebSystem.DataAccessLayer",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj",
-        "projectName": "WebSystem.DTO",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj",
-        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj",
-        "projectName": "WebSystem.InversionOfControl",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\WebSystem.InversionOfControl.csproj",
-        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.InversionOfControl\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.BusinessLogicLayer\\WebSystem.BusinessLogicLayer.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DataAccessLayer\\WebSystem.DataAccessLayer.csproj"
-              },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj",
-        "projectName": "WebSystem.Model",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj",
-        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -420,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj",
-        "projectName": "WebSystem.Utility",
-        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\WebSystem.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Utility\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -448,11 +103,83 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.DTO\\WebSystem.DTO.csproj"
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj",
+        "projectName": "IOC",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj",
+        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj"
               },
-              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\WebSystem.Model\\WebSystem.Model.csproj"
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj"
+              },
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj"
               }
             }
           }
@@ -478,6 +205,158 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj"
+              },
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj",
+        "projectName": "REST_Services",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\REST_Services.csproj",
+        "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\REST_Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\ADataAccess\\ADataAccess.csproj"
+              },
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\IOC\\IOC.csproj"
+              },
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebSystem\\Logic\\Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
