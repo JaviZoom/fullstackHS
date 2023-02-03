@@ -10,3 +10,15 @@ C:\Users\Jasz_\Documents\WebApp\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\Jasz_\Documents\WebApp\DTO\obj\Debug\net6.0\refint\DTO.dll
 C:\Users\Jasz_\Documents\WebApp\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\Jasz_\Documents\WebApp\DTO\obj\Debug\net6.0\ref\DTO.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\DTO\obj\Debug\net6.0\ref\DTO.dll

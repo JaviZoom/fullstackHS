@@ -3363,11 +3363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\IOC\\IOC.csproj",
+      "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\IOC\\IOC.csproj",
       "projectName": "IOC",
-      "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\IOC\\IOC.csproj",
+      "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\IOC\\IOC.csproj",
       "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\IOC\\obj\\",
+      "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\IOC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3384,14 +3384,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj"
             },
-            "C:\\Users\\Jasz_\\Documents\\WebApp\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj": {
-              "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj"
+            "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj": {
+              "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj"
             }
           }
         }

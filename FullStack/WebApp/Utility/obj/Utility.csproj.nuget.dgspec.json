@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj": {}
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj",
         "projectName": "ADataAccess",
-        "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\Utility.csproj",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\Utility\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +150,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj"
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj"
               },
-              "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj"
+              "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj"
               }
             }
           }

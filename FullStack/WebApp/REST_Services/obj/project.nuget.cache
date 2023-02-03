@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xhiqm9JLuilQKCJfvgQrHOBFDg6qDETeD2h8AQ1oIN4S38eOx8d4KaE9H68SX6MvgByPcrl7tk7rRNl46H3YJQ==",
+  "dgSpecHash": "S+aCt8jwdylnXSlCRDxs5WK5H+fxT2dZVeakrYGbMo7tZ5mhOphVnD2vX0IUF+MBDHnbIXeQStmbEb816nLyMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jasz_\\Documents\\WebApp\\REST_Services\\REST_Services.csproj",
+  "projectFilePath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\REST_Services\\REST_Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jasz_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Jasz_\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

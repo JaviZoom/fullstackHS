@@ -35,5 +35,61 @@ namespace REST_Services.Controllers
             }
             return Ok(rsp);
         }
+        [HttpPost]
+        [Route("Create")]
+        public async Task<IActionResult> Create([FromBody] ItemDTO item) 
+        {
+            var rsp = new Response<ItemDTO>();
+            try
+            {
+                rsp.status = true;
+                rsp.value = await _itemService.Create(item);
+            }
+            catch (Exception ex)
+            {
+                rsp.status = false;
+                rsp.message = ex.Message;
+
+            }
+            return Ok(rsp);
+        }
+        [HttpPut]
+        [Route("Edit")]
+        public async Task<IActionResult> Edit([FromBody] ItemDTO item)
+        {
+            var rsp = new Response<bool>();
+            try
+            {
+                rsp.status = true;
+                rsp.value = await _itemService.Update(item);
+                 
+            }
+            catch (Exception ex)
+            {
+                rsp.status = false;
+                rsp.message = ex.Message;
+
+            }
+            return Ok(rsp);
+        }
+        [HttpDelete]
+        [Route("Delete/{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var rsp = new Response<bool>();
+            try
+            {
+                rsp.status = true;
+                rsp.value = await _itemService.Delete(id);
+
+            }
+            catch (Exception ex)
+            {
+                rsp.status = false;
+                rsp.message = ex.Message;
+
+            }
+            return Ok(rsp);
+        }
     }
 }

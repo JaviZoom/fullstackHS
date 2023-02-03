@@ -12,3 +12,17 @@ C:\Users\Jasz_\Documents\WebApp\ADataAccess\obj\Debug\net6.0\refint\ADataAccess.
 C:\Users\Jasz_\Documents\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.pdb
 C:\Users\Jasz_\Documents\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.genruntimeconfig.cache
 C:\Users\Jasz_\Documents\WebApp\ADataAccess\obj\Debug\net6.0\ref\ADataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\bin\Debug\net6.0\ADataAccess.deps.json
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\bin\Debug\net6.0\ADataAccess.runtimeconfig.json
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\bin\Debug\net6.0\ADataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\bin\Debug\net6.0\ADataAccess.pdb
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.csproj.AssemblyReference.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.AssemblyInfoInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.AssemblyInfo.cs
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\refint\ADataAccess.dll
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.pdb
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ADataAccess.genruntimeconfig.cache
+C:\Users\Jasz_\Desktop\FullStack\FullStack\WebApp\ADataAccess\obj\Debug\net6.0\ref\ADataAccess.dll

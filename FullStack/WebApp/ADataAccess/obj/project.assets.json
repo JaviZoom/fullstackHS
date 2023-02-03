@@ -3514,11 +3514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj",
       "projectName": "ADataAccess",
-      "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj",
+      "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj",
       "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",

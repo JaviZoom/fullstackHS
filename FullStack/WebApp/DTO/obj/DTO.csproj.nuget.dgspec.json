@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj": {}
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj": {
+    "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Jasz_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasz_\\Documents\\WebApp\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jasz_\\AppData\\Roaming\\NuGet\\NuGet.Config",

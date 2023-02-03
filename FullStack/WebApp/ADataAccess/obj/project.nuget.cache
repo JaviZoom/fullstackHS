@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nRmIrv+qgfyPNe1yy1zVg6xmehS1yrutqse8g4xhDAPbMyjFsKJ1aiNg2FPbQyxiShREK/rAjTBpVJ8M3YDd1g==",
+  "dgSpecHash": "swxygsVKPOmlafRTc98rBxPoFr1HGCSgZON70OjECqn/Li2aI4sRsfzUCIv7ekEWmZF9ADbrlfN55SAitm5Z+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jasz_\\Documents\\WebApp\\ADataAccess\\ADataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Jasz_\\Desktop\\FullStack\\FullStack\\WebApp\\ADataAccess\\ADataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jasz_\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Jasz_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
