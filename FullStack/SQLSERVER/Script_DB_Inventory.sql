@@ -80,6 +80,13 @@ alter table Item
       references Category (id_category)
 go
 
+EXEC sp_configure 'remote access', 1;
+RECONFIGURE;
+EXEC sp_configure 'remote query timeout', 0;
+RECONFIGURE;
+EXEC sp_configure 'remote proc trans', 0;
+RECONFIGURE;
+
 insert into Category (id_category, name_category) values (1, 'Grocery')
 go
 insert into Category (id_category, name_category) values (2, 'Fresh produce')

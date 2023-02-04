@@ -1,4 +1,5 @@
-version: '3'
+version: '3.4'
+
 services:
   fullstack-sqlserver:
     image: fullstack-sqlserver-image
@@ -12,3 +13,27 @@ services:
       ACCEPT_EULA: Y
     ports:
     - "1433:1433"
+    expose: 
+    - "1433"
+    networks:
+      - fullstack-network
+  
+  
+
+  fullstack-dotnet:
+    image: fullstack-dotnet-image
+    build:
+      context: ./WebApp
+      dockerfile: ./REST_Services/Dockerfile
+    restart: always
+    container_name: fullstack-dotnet-container
+    ports:
+    - "8080:8080"
+    depends_on:
+      - fullstack-sqlserver
+    networks:
+      - fullstack-network    
+  
+networks:
+  fullstack-network:
+    driver: bridge
