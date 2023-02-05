@@ -6,7 +6,9 @@ import {MatTableDataSource} from '@angular/material/table';
 import { Item } from './Interfaces/item';
 import { ItemService } from './Services/item.service';
 import {MatDialog} from '@angular/material/dialog';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { DialogAddEditComponent } from './Dialogs/dialog-add-edit/dialog-add-edit.component';
+import { DialogDeleteComponent } from './Dialogs/dialog-delete/dialog-delete.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +20,7 @@ export class AppComponent implements AfterViewInit, OnInit{
   dataItem = new MatTableDataSource<Item>();
 
   constructor(
+    private _snackbar:MatSnackBar,
     private _itemService:ItemService,
     public dialog: MatDialog
   ){}
@@ -46,7 +49,7 @@ export class AppComponent implements AfterViewInit, OnInit{
         }
       },
       error:(e)=>{}
-    });
+    })
   }
   dialogNewItem() {
     this.dialog.open(DialogAddEditComponent,{
@@ -56,7 +59,7 @@ export class AppComponent implements AfterViewInit, OnInit{
       if(result==="created"){
         this.showItems();
       }
-    });
+    })
   }
   dialogEditItem(item:Item) {
     this.dialog.open(DialogAddEditComponent,{
@@ -67,6 +70,38 @@ export class AppComponent implements AfterViewInit, OnInit{
       if(result==="edited"){
         this.showItems();
       }
+    })
+  }
+
+  showAlert(msg:string, title:string){
+    this._snackbar.open(msg,title,{
+      horizontalPosition:"end",
+      verticalPosition:"top",
+      duration:3000
+    })
+  }
+
+  dialogDeleteItem(item:Item){
+    this.dialog.open(DialogDeleteComponent,{
+      disableClose:true,
+      data:item      
+    }).afterClosed().subscribe(result =>{
+      if(result==="delete"){
+        this._itemService.delete(item.idItem).subscribe({
+          next:(data)=>{
+            if(data.status)
+            {
+              this.showAlert("Item was deleted","success");
+              this.showItems();
+            }else {
+              this.showAlert("Item could not be deleted","Error");
+            }
+          }, 
+          error:(e)=>{}
+        })
+        
+      }
     });
+
   }
 }

@@ -1,1 +1,8 @@
-<p>dialog-delete works!</p>
+<h1 mat-dialog-title>Delete Item</h1>
+<div mat-dialog-content>
+    Are you sure you want to delete the item "{{itemDelete.nameItem}}"?
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close >No, Cancel</button>
+  <button mat-raised-button color="warn" (click)="confirmDelete()" cdkFocusInitial>Yes, Delete</button>
+</div>

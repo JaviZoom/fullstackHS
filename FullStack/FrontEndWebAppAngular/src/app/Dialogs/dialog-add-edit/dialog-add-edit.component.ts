@@ -6,7 +6,6 @@ import { Category } from 'src/app/Interfaces/category';
 import { Item } from 'src/app/Interfaces/item';
 import { CategoryService } from 'src/app/Services/category.service';
 import { ItemService } from 'src/app/Services/item.service';
-import { ThisReceiver } from '@angular/compiler';
 
 
 @Component({
@@ -66,7 +65,7 @@ export class DialogAddEditComponent implements OnInit {
       horizontalPosition:"end",
       verticalPosition:"top",
       duration:3000
-    });
+    })
   }
 
   addEditItem(){

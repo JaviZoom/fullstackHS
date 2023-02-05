@@ -28,7 +28,20 @@ services:
     depends_on:
       - fullstack-sqlserver
     networks:
-      - fullstack-network    
+      - fullstack-network 
+  fullstack-angular:
+    depends_on:
+      - fullstack-dotnet
+    image: fullstack-angular-image
+    build:
+      context: ./FrontEndWebAppAngular
+      dockerfile: Dockerfile
+    ports:
+      - "4500:4500"
+    restart: always
+    container_name: fullstack-angular-container
+    networks:
+      - fullstack-network   
 networks:
   fullstack-network:
     driver: bridge
