@@ -1,0 +1,54 @@
+<h1 mat-dialog-title>{{actionTitle}} Item</h1>
+<div mat-dialog-content>
+  <form [formGroup]="formItem">
+    <mat-grid-list cols="1" rowHeight="80px">
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>ID</mat-label>
+          <input matInput formControlName="idItem" autocomplete="off" type="number" min="1" pattern="^[0-9]+" >
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>CODE</mat-label>
+          <input matInput formControlName="codeItem" autocomplete="off" maxlength="10">
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile> 
+        <mat-form-field appearance="outline">
+          <mat-label>NAME</mat-label>
+          <input matInput formControlName="nameItem" autocomplete="off" maxlength="50">
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile> 
+        <mat-form-field appearance="outline">
+          <mat-label>CATEGORY</mat-label>
+          <mat-select formControlName="idCategory" >
+            <mat-option *ngFor="let i of listCategory" [value]="i.idCategory">
+              {{i.nameCategory}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+      
+      <mat-grid-tile> 
+        <mat-form-field appearance="outline">
+          <mat-label>QUANTITY</mat-label>
+          <input matInput formControlName="quantityItem" autocomplete="off" type="number" min="0" pattern="^[0-9]+">
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close color="warn">Cancel</button>
+  <button mat-raised-button color="primary" (click)="addEditItem()"
+  [disabled]="formItem.invalid">
+    {{actionButton}}
+  </button>
+</div>

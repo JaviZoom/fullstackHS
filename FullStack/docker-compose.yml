@@ -1,5 +1,4 @@
 version: '3.4'
-
 services:
   fullstack-sqlserver:
     image: fullstack-sqlserver-image
@@ -17,9 +16,6 @@ services:
     - "1433"
     networks:
       - fullstack-network
-  
-  
-
   fullstack-dotnet:
     image: fullstack-dotnet-image
     build:
@@ -33,7 +29,6 @@ services:
       - fullstack-sqlserver
     networks:
       - fullstack-network    
-  
 networks:
   fullstack-network:
     driver: bridge
