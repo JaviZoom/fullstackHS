@@ -1,9 +1,9 @@
 FROM node:18
-
+RUN npm install -g @angular/cli@15.0.4
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json .
-RUN npm install -g @angular/cli@15.0.4
+
 
 COPY . /usr/src/app/
 RUN npm run build
