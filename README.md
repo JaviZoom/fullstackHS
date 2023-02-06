@@ -8,12 +8,12 @@ STEPS TO RUN THE WEB APP - DOCKERCOMPOSE
 
 4. write the command:
 
-    docker-compose up
+                        docker-compose up
 
 5. wait until the images and the containers are built
 
 6. when everything is ready open:
 
-    http://localhost:4500/
+                        http://localhost:4500/
 
 7. Enjoy!
