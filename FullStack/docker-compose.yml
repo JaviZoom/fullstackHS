@@ -1,4 +1,3 @@
-version: '3.4'
 services:
   fullstack-sqlserver:
     image: fullstack-sqlserver-image
